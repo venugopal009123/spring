@@ -13,7 +13,7 @@ public class ViewWelcomeController implements yourController{
 		ModelAndView mv=null;
 		mv=new ModelAndView();
 		mv.setViewName("welcome");
-	System.out.println("yourcontroller");
+	System.out.println("mycontroller");
 		return mv;
 		
 	}
